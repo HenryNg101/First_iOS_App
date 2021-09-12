@@ -9,7 +9,10 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    
+    @IBOutlet var Number_Buttons: [UIButton]!
     //Horsepower measurement and unit buttons
+    
     @IBOutlet weak var KilowattsButton: UIButton!
     @IBOutlet weak var HorsepowerButton: UIButton!
     @IBOutlet weak var MechanicalButton: UIButton!
@@ -26,6 +29,7 @@ class ViewController: UIViewController {
     
     //When user click on a number on the pad to add number
     @IBAction func numberButtonEvent(_ sender: UIButton) {
+        animateButton(sender)
         let newNumeral = sender.titleLabel?.text
         var oldNumber = EnteredValue.text
         
@@ -52,6 +56,15 @@ class ViewController: UIViewController {
         }
     }
     
+    func animateButton(_ button: UIButton) {
+        UIView.animate(withDuration: 0.2) {
+            button.backgroundColor = UIColor.white
+        }
+        UIView.animate(withDuration: 0.2) {
+            button.backgroundColor = UIColor.systemGray2
+        }
+    }
+    
     //When user need to choose what unit to convert to
     @IBAction func ChooseConvertUnit(_ sender: UIButton) {
         convert_unit = sender.titleLabel?.text ?? ""
@@ -72,7 +85,7 @@ class ViewController: UIViewController {
         
         //Reset all buttons's color back to default
         for button in unitButtons {
-            button.backgroundColor = UIColor.systemGray2
+            button.backgroundColor = UIColor.systemOrange
         }
         for (key, value) in measurementButtons {
             key.backgroundColor = UIColor.systemGray2
@@ -102,5 +115,14 @@ class ViewController: UIViewController {
         measurementButtons[ElectricalButton] = 0.746
         unitButtons.append(HorsepowerButton)
         unitButtons.append(KilowattsButton)
+        for (key, value) in measurementButtons {
+            key.layer.cornerRadius = 15.0
+        }
+        for UnitButton in unitButtons {
+            UnitButton.layer.cornerRadius = 15.0
+        }
+        for button in Number_Buttons {
+            button.layer.cornerRadius = 15.0
+        }
     }
 }

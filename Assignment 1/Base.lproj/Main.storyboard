@@ -22,24 +22,23 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Horsepower Converter" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VmV-KF-eoU">
                                         <rect key="frame" x="111" y="8" width="172" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter the value:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="paX-a5-XYH">
                                         <rect key="frame" x="267.66666666666669" y="44" width="118.33333333333331" height="20.666666666666671"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PWB-6j-7TA">
                                         <rect key="frame" x="111" y="79.666666666666671" width="275" height="21"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="17" id="28G-hb-eKd"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="default">
                                             <mask key="constraints">
@@ -53,7 +52,7 @@
                                         </variation>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstItem="PWB-6j-7TA" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="egP-7i-12D" secondAttribute="leading" constant="20" symbolic="YES" id="2Hz-TN-Ivy"/>
                                     <constraint firstAttribute="trailing" secondItem="PWB-6j-7TA" secondAttribute="trailing" constant="17" id="6Lg-jG-wEo"/>
@@ -121,13 +120,13 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The converted value is:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nQV-yp-qRt">
                                         <rect key="frame" x="209" y="329" width="177" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose the unit to convert to:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qyN-Gn-SzD">
                                         <rect key="frame" x="157" y="103" width="227" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="flR-TI-cRc">
@@ -163,7 +162,7 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose the horsepower measurement:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="43C-xe-ZPP">
                                         <rect key="frame" x="91" y="8" width="295" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gpd-Uy-OYH">
@@ -211,13 +210,13 @@
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JVg-xY-AfR">
                                         <rect key="frame" x="375.66666666666669" y="365" width="10.333333333333314" height="20.666666666666686"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="29" id="LZR-5I-Rqe"/>
                                             <constraint firstAttribute="width" constant="175" id="xTQ-kp-CpJ"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="default">
                                             <mask key="constraints">
@@ -233,7 +232,7 @@
                                         </variation>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstItem="qNk-BY-qDs" firstAttribute="baseline" secondItem="gpd-Uy-OYH" secondAttribute="baseline" id="0s2-Dt-TtI"/>
                                     <constraint firstItem="nQV-yp-qRt" firstAttribute="top" secondItem="hiO-C8-yYE" secondAttribute="bottom" constant="48" id="0yU-SE-dlo"/>
@@ -628,7 +627,7 @@
                                             </mask>
                                         </variation>
                                         <connections>
-                                            <action selector="numberButtonEvent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Run-7w-YJ3"/>
+                                            <action selector="numberButtonEvent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wqW-OU-7XJ"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vGg-6x-0bU">
@@ -638,7 +637,7 @@
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="numberButtonEvent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Khb-tu-sa2"/>
+                                            <action selector="numberButtonEvent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jbE-NG-pha"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jDe-uH-LoB">
@@ -762,7 +761,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QAy-BF-h6e">
                                         <rect key="frame" x="280" y="115" width="106" height="38"/>
-                                        <color key="backgroundColor" systemColor="systemGray2Color"/>
+                                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                         <state key="normal" title="Reset">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
@@ -781,7 +780,7 @@
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstItem="gBh-wK-uVR" firstAttribute="leading" secondItem="MaV-cU-IZQ" secondAttribute="leading" id="1V4-u7-RfB"/>
                                     <constraint firstItem="pnh-MU-QWi" firstAttribute="leading" secondItem="QAy-BF-h6e" secondAttribute="leading" id="3Vz-EN-D4t"/>
@@ -946,7 +945,7 @@
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="egP-7i-12D" firstAttribute="top" secondItem="aFf-eQ-DtJ" secondAttribute="top" id="0Hn-TU-j4I"/>
                             <constraint firstItem="aFf-eQ-DtJ" firstAttribute="leading" secondItem="egP-7i-12D" secondAttribute="trailing" constant="8" symbolic="YES" id="3qc-wF-gCg"/>
@@ -1044,10 +1043,22 @@
                         <outlet property="ConvertedResult" destination="JVg-xY-AfR" id="qad-bs-7RI"/>
                         <outlet property="ElectricalButton" destination="gpd-Uy-OYH" id="Ipa-lh-PIa"/>
                         <outlet property="EnteredValue" destination="PWB-6j-7TA" id="gmg-VW-0Jo"/>
-                        <outlet property="HorsepowerButton" destination="flR-TI-cRc" id="WTM-ml-w2c"/>
-                        <outlet property="KilowattsButton" destination="hie-29-JeU" id="Fg0-wb-3Wf"/>
+                        <outlet property="HorsepowerButton" destination="flR-TI-cRc" id="V42-OM-dco"/>
+                        <outlet property="KilowattsButton" destination="hie-29-JeU" id="gfz-9Q-dAc"/>
                         <outlet property="MechanicalButton" destination="efZ-yj-olp" id="ZmE-ip-odg"/>
                         <outlet property="MetricButton" destination="qNk-BY-qDs" id="GeB-Eh-9Yo"/>
+                        <outletCollection property="Number_Buttons" destination="FgN-Wm-3os" collectionClass="NSMutableArray" id="U9x-Jk-6c2"/>
+                        <outletCollection property="Number_Buttons" destination="vGg-6x-0bU" collectionClass="NSMutableArray" id="mgg-cY-wnx"/>
+                        <outletCollection property="Number_Buttons" destination="jDe-uH-LoB" collectionClass="NSMutableArray" id="QPx-k0-nXA"/>
+                        <outletCollection property="Number_Buttons" destination="gBh-wK-uVR" collectionClass="NSMutableArray" id="0AA-mx-pPv"/>
+                        <outletCollection property="Number_Buttons" destination="sTN-lT-MuV" collectionClass="NSMutableArray" id="VEC-cY-fkp"/>
+                        <outletCollection property="Number_Buttons" destination="cW0-US-NNs" collectionClass="NSMutableArray" id="aqw-qg-NUV"/>
+                        <outletCollection property="Number_Buttons" destination="MaV-cU-IZQ" collectionClass="NSMutableArray" id="Xp9-l8-H45"/>
+                        <outletCollection property="Number_Buttons" destination="pnh-MU-QWi" collectionClass="NSMutableArray" id="T8p-as-E4t"/>
+                        <outletCollection property="Number_Buttons" destination="Fso-DK-vpm" collectionClass="NSMutableArray" id="Euf-vK-Tec"/>
+                        <outletCollection property="Number_Buttons" destination="pZb-sE-8Lk" collectionClass="NSMutableArray" id="RHO-0p-KOC"/>
+                        <outletCollection property="Number_Buttons" destination="QAy-BF-h6e" collectionClass="NSMutableArray" id="7nF-21-2KL"/>
+                        <outletCollection property="Number_Buttons" destination="Lfu-K6-lGD" collectionClass="NSMutableArray" id="SD7-QY-RYx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -1056,11 +1067,11 @@
         </scene>
     </scenes>
     <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
         <systemColor name="systemGray2Color">
             <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
