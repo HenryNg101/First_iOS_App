@@ -763,7 +763,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QAy-BF-h6e">
                                         <rect key="frame" x="280" y="115" width="106" height="38"/>
                                         <color key="backgroundColor" systemColor="systemGray2Color"/>
-                                        <state key="normal" title="DEL">
+                                        <state key="normal" title="Reset">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
@@ -852,16 +852,16 @@
                                         <exclude reference="PLj-wF-YZ9"/>
                                         <exclude reference="TB6-uq-0HU"/>
                                         <exclude reference="VUT-OM-lT0"/>
-                                        <exclude reference="93R-vd-h2D"/>
-                                        <exclude reference="dOd-7n-Okx"/>
-                                        <exclude reference="fJi-q6-HbW"/>
-                                        <exclude reference="qNo-lA-hru"/>
                                         <exclude reference="ESc-EI-ZhB"/>
                                         <exclude reference="QgK-cp-uv0"/>
                                         <exclude reference="gSJ-AG-B0q"/>
                                         <exclude reference="UZE-N3-yo3"/>
                                         <exclude reference="kk3-N7-gdT"/>
                                         <exclude reference="qea-55-rd1"/>
+                                        <exclude reference="93R-vd-h2D"/>
+                                        <exclude reference="dOd-7n-Okx"/>
+                                        <exclude reference="fJi-q6-HbW"/>
+                                        <exclude reference="qNo-lA-hru"/>
                                         <exclude reference="VJo-3Z-sdg"/>
                                         <exclude reference="aJS-gD-Ycu"/>
                                         <exclude reference="dWn-4M-MmA"/>
@@ -911,16 +911,16 @@
                                         <include reference="PLj-wF-YZ9"/>
                                         <include reference="TB6-uq-0HU"/>
                                         <include reference="VUT-OM-lT0"/>
-                                        <include reference="93R-vd-h2D"/>
-                                        <include reference="dOd-7n-Okx"/>
-                                        <include reference="fJi-q6-HbW"/>
-                                        <include reference="qNo-lA-hru"/>
                                         <include reference="ESc-EI-ZhB"/>
                                         <include reference="QgK-cp-uv0"/>
                                         <include reference="gSJ-AG-B0q"/>
                                         <include reference="UZE-N3-yo3"/>
                                         <include reference="kk3-N7-gdT"/>
                                         <include reference="qea-55-rd1"/>
+                                        <include reference="93R-vd-h2D"/>
+                                        <include reference="dOd-7n-Okx"/>
+                                        <include reference="fJi-q6-HbW"/>
+                                        <include reference="qNo-lA-hru"/>
                                         <include reference="VJo-3Z-sdg"/>
                                         <include reference="aJS-gD-Ycu"/>
                                         <include reference="dWn-4M-MmA"/>
