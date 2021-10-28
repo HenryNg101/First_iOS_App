@@ -1,4 +1,4 @@
-# Assignment-1-iOS-Development
+# My 1st iOS app
 
 My Uni's iOS first assignment (Also my first iOS app that I made)
 
